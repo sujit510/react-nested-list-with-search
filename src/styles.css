@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  /* margin-right: 10px; */
+}
+
+.arrow.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.arrow.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.parent-node {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  list-style-position: inside;
+}
+
+.arrow-icon-parent {
+  min-width: 12.73px;
+  align-self: flex-start;
+}
